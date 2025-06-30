@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CourseHub Manager</string>
+
+    <string name="tab_programming">Programming</string>
+    <string name="tab_engineering">Engineering</string>
+    <string name="tab_design">Design</string>
+    <string name="tab_my_courses">My Courses</string>
+    <string name="tab_bookmarks">Bookmarks</string>
+    <string name="tab_profile">Profile</string>
+
+    <string name="course_hub_manager">Course Hub Manager</string>
+
+    <string name="tab_programming_description">Tab for programming courses</string>
+    <string name="tab_engineering_description">Tab for engineering courses</string>
+    <string name="tab_design_description">Tab for design courses</string>
+    <string name="tab_my_courses_description">Tab for viewing your enrolled courses</string>
+    <string name="tab_bookmarks_description">Tab for your saved courses</string>
+    <string name="tab_profile_description">Tab for accessing your profile</string>
+
+    <string name="save_button_text">Save</string>
+    <string name="delete_button_text">Delete</string>
+
+    <string name="course_name_hint">Course Name</string>
+    <string name="course_details_hint">Course Details</string>
+    <string name="instructor_name_hint">Instructor Name</string>
+    <string name="course_duration_hint">Course Duration (hours)</string>
+    <string name="course_price_hint">Course Price</string>
+    <string name="category_hint">Category</string>
+
+    <string name="course_name_content_description">Enter the name of the course</string>
+    <string name="course_details_content_description">Enter the details of the course</string>
+    <string name="instructor_name_content_description">Enter the instructor\'s name</string>
+    <string name="course_duration_content_description">Enter the duration of the course in hours</string>
+    <string name="course_price_content_description">Enter the price of the course</string>
+    <string name="category_content_description">Enter the category of the course</string>
+
+    <string name="course_image_content_description">Image representing course addition</string>
+</resources>

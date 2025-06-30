@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="TheApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/cairo</item>
+    </style>
+    <style name="ToolbarTitleText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/cairo</item>
+    </style>
+
+</resources>

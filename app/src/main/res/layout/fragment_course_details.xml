@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اسم الدورة"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/instructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المحاضر"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="السعر"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المدة"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="التفاصيل"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/joinCourseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="انضمام للدورة"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/bookmarkButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إضافة إلى المحفوظات"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
